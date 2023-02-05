@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)100%,rgba(0, 0, 0, 0.5)100%),url(17545.jpg);
+    background-size: cover;
+    background-position: initial;
+}
+
+.navbar{
+    width: 1440px;
+    height: 85px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+
+.logo{
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 37px;
+    padding-left: 15px;
+    padding-top: 15px;
+    float: left;
+}
+
+.linkbar{
+    width: 10x;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    position: relative; left: 210px;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+li,
+a {
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    text-decoration: none;
+    font-size: large;
+}
+
+.content{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+    margin-top: 13%;
+    
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.949);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5%;
+    bottom: 0;
+}
+
+iframe{
+    margin-top: 80px;
+    margin-left: 420px;
+}
+
+footer h4{
+    color: rgb(246, 246, 246);
+}
+
+.vidoeplayer h4
+{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+    margin-top: 13%;
+    
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%),url(mockaroon-YqUeLG7fMr4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+
+.logo{
+    color: rgb(2, 2, 2);
+    font-family: Arial;
+    font-size: 35px;
+    padding-left: 40px;
+    padding-top: 40px;
+    float: left;
+}
+
+.linkbar{
+    width: 10x;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    position: relative; left: 210px;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+li,
+a {
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    text-decoration: none;
+    font-size: large;
+}
+.menuhead{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.menutable {
+    color: rgb(14, 0, 0);
+    width: 100%;
+    height: 200px;
+}
+ 
+.menutable tr td {
+    
+    font-weight: Arial;
+    font-size: 28px;
+    padding: 9px;
+    margin:10px;
+}
+
+
+
+
