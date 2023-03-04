@@ -1,0 +1,36 @@
+#loginForm {
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+body{
+  background-color:rgb(255, 0, 0);
+}
+
+label {
+
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+
+button[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
