@@ -1,0 +1,41 @@
+/**custom properties overriding**/
+:root {
+    --padding-tool:300px;
+  }
+
+
+$myContainer: container;
+
+/**Using Interpolation**/
+
+
+.grid-#{$myContainer} {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: chocolate;
+    padding: 10px;
+    --padding-tool:20px;
+
+    }
+
+/**PlaceholderSelectors**/
+
+
+    %bgcolorgrid{
+        background-color: blanchedalmond;
+    }
+    .grid-item {
+    @extend %bgcolorgrid;
+   
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: var(--padding-tool);
+    font-size: 20px;
+    text-align: center;
+    }
+
+    .grid-item:hover{
+        background-color: palevioletred;
+    
+    }
+    
+    

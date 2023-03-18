@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: 100% helvetica;
+}
+
+.h {
+  width: 100%;
+  height: 110vh;
+  background: linear-gradient(black 100%, black 100%), url(black-coffee-g889ef491c_1920.jpg);
+  background-size: cover;
+  background-position: initial;
+}
+
+.n {
+  width: 1440px;
+  height: 85px;
+  margin: auto;
+}
+
+.i {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.l {
+  color: rgba(145, 135, 135, 0.87);
+  font-family: Arial;
+  font-size: 37px;
+  padding-left: 15px;
+  padding-top: 15px;
+  float: left;
+}
+
+.linkbar {
+  width: 10x;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  position: relative;
+  left: 210px;
+  margin-left: 110px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+li,
+a {
+  color: white;
+  font-family: Arial;
+  text-decoration: none;
+  font-size: large;
+}
+
+.content {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 13%;
+}
+
+.box {
+  color: maroon;
+  font-size: large;
+  margin-top: 0px;
+  background-color: khaki;
+}
+
+:root {
+  --padding-tool:300px;
+}
+
+/**Using Interpolation**/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  --padding-tool:20px;
+}
+
+/**PlaceholderSelectors**/
+.grid-item {
+  background-color: rgb(0, 0, 0);
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: var(--padding-tool);
+  font-size: 20px;
+  text-align: center;
+}
+
+.grid-item:hover {
+  background-color: palevioletred;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}/*# sourceMappingURL=style.css.map */
