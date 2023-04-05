@@ -1,0 +1,20 @@
+.button{
+    margin-left: 550px;
+    margin-right: auto;
+}
+
+.line1{
+    background-color: rgb(255, 133, 2);
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+
+}
+
+.heading{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+}
